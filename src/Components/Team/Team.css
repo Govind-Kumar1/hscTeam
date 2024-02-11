@@ -1,0 +1,41 @@
+.i{
+    background: #246A73;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .card-wrapper {
+    flex: 1 1 calc(25% - 30px); /* Set width for each card to occupy 25% of the container width with margin */
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .card-wrapper {
+      flex: 1 1 100%; /* On smaller screens, each card occupies 100% width */
+    }
+  }
+  
+
+/* @media screen and (max-width: 480px) {
+    .card {
+        width: 100%; /* Single card per row on even smaller screens */
+    /* }
+} */ 
+/* Media query for responsiveness */
+/* @media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* Two cards per row on smaller screens */
+    /* }
+} */  
+
+/* @media screen and (max-width: 480px) {
+    .card {
+        width: 100%; /* Single card per row on even smaller screens */
+    /* }
+} */
+
+ /* */  
