@@ -1,6 +1,7 @@
 import React from 'react';
 import './Team.css';
 import Hover from '../Hover/Hover';
+import Marqueex from '../marquee/marquee';
 // import Card from '../Card/Card';
 import all_product from '../Assets/all_product';
 // import Single from '../Card/Single';
@@ -28,7 +29,9 @@ const Team = () => {
           </div>
         ))}
       </div>
+      <div><Marqueex></Marqueex></div>
     </div>
+    
   );
 };
 

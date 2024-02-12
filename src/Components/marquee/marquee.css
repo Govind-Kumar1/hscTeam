@@ -1,0 +1,36 @@
+.Marqueecard{
+    height: 9em;
+    width: 14em;
+    /* border: 2px solid black; */
+    overflow:hidden ;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.Marqueecard img{
+    object-position: center;
+    object-fit: cover;
+ border-radius: 80px;
+  height: 90px;
+  width:90px;
+}
+.Marqueecard h4{
+    
+        margin-left: 18px;
+        font-size: 1.5rem;
+    
+}
+  
+  
+    
+
+.container{
+    height:500px;
+    width:1000px;
+    justify-content: space-around;
+    display: flex;
+    
+    
+
+}
