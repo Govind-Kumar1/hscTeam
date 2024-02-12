@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hover.scss'
 import  img1 from '../Assets/img.jpg'
-const Hover = () => {
+const Hover = (props) => {
   return (
     <div>
        <div className="card__collection clear-fix">
@@ -9,7 +9,9 @@ const Hover = () => {
     <img src={img1} className="img-responsive" alt="Cards "/>
     <span className="cards--two__rect"></span>
     <span className="cards--two__tri"></span>
-    <p>Lucy Grace</p>
+    <p>{props.name}<br/></p>
+    
+    <p><br/>{props.role}</p>
     <ul className="cards__list">
       <li><i className="fab fa-facebook-f"></i></li>
       <li><i className="fab fa-twitter"></i></li>
@@ -17,7 +19,7 @@ const Hover = () => {
       <li><i className="fab fa-linkedin-in"></i></li>
     </ul>
   </div>
-  <div className="cards cards--three">
+  {/* <div className="cards cards--three">
     <img src={img1}className="img-responsive" alt=""/>
     <span className="cards--three__rect-1">
       <span className="shadow-1"></span>
@@ -32,9 +34,9 @@ const Hover = () => {
       <li><i className="fab fa-twitter"></i></li>
       <li><i className="fab fa-linkedin-in"></i></li>
     </ul>
-  </div>
+  </div>*/}
 </div>
-    </div>
+    </div> 
   )
 }
 
