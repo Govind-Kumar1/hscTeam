@@ -29,7 +29,7 @@ const Team = () => {
           </div>
         ))}
       </div>
-      <div><Marqueex></Marqueex></div>
+      <div><Marqueex name="Govind Kumar"></Marqueex></div>
     </div>
     
   );

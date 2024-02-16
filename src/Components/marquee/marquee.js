@@ -9,12 +9,12 @@ function Marqueex(props)
     
     <Marquee pauseOnHover="true" className="container">  
         
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div>
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name name n</h4></div>
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name nnanann</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name njjhj</h4></div> 
         <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name hhhh</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name hhggg</h4></div> 
         <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
         <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
                 

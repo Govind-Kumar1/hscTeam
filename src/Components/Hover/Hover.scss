@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.containe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .clear-fix:after {
   display: block;
@@ -14,7 +19,7 @@
 
 .img-responsive {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 @import 'https://fonts.googleapis.com/css?family=Do+Hyeon';
@@ -30,14 +35,14 @@ $color-box-7 : #de8b3e;
 .card__collection {
     position: relative;
     display: block;
-    background: rgba(10,10,10,.5);
+    
     padding: 10px;
     font-family: 'Do Hyeon', sans-serif;
     overflow: hidden;
     
   .cards {
       width: 300px;
-      height: 400px;
+      height: 360px;
       display: block;
       background-size: cover;
       float: left;
@@ -142,12 +147,14 @@ $color-box-7 : #de8b3e;
     }
   
   .cards--two {
+    
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
       position: relative;
       backface-visibility: hidden;
       
       p {
         position: absolute;
-        top: 83%;
+        // top: 83%;
         left: -100%;
         text-transform: capitalize;
         color: #fff;
