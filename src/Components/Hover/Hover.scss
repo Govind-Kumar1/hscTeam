@@ -29,8 +29,10 @@ $color-box-7 : #de8b3e;
 
 .card__collection {
     position: relative;
+    height: fit-content;//new
+    width: fit-content;// new
     display: block;
-    background: rgba(10,10,10,.5);
+    // background: rgba(10,10,10,.5);//new
     padding: 10px;
     font-family: 'Do Hyeon', sans-serif;
     overflow: hidden;
@@ -40,7 +42,7 @@ $color-box-7 : #de8b3e;
       height: 400px;
       display: block;
       background-size: cover;
-      float: left;
+      float:left;
       border-radius: 15px;
       position: relative;
       overflow: hidden;
@@ -467,4 +469,7 @@ $color-box-7 : #de8b3e;
     }
   }
  
+}
+.img-responsive{
+  border-radius: 30px//new
 }

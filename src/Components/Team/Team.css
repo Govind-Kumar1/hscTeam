@@ -1,41 +1,33 @@
-.i{
+
+   .team-container {
     background: #246A73;
-}
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .team-container h1{
+    color: beige;
+  }
+  
+  .team-section {
     margin-top: 50px;
   }
   
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
   .card-wrapper {
-    flex: 1 1 calc(25% - 30px); /* Set width for each card to occupy 25% of the container width with margin */
+    flex: 1 1 calc(25% - 30px);
     margin-bottom: 30px;
   }
   
   @media (max-width: 768px) {
     .card-wrapper {
-      flex: 1 1 100%; /* On smaller screens, each card occupies 100% width */
+      flex: 1 1 100%;
     }
   }
-  
 
-/* @media screen and (max-width: 480px) {
-    .card {
-        width: 100%; /* Single card per row on even smaller screens */
-    /* }
-} */ 
-/* Media query for responsiveness */
-/* @media screen and (max-width: 768px) {
-    .card {
-        width: calc(50% - 20px); /* Two cards per row on smaller screens */
-    /* }
-} */  
-
-/* @media screen and (max-width: 480px) {
-    .card {
-        width: 100%; /* Single card per row on even smaller screens */
-    /* }
-} */
-
- /* */  
