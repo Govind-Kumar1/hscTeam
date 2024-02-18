@@ -1,7 +1,8 @@
+
 .Marqueecard{
     height: 9em;
     width: 14em;
-    /* border: 2px solid black; */
+     
     overflow:hidden ;
     display: inline-block;
     margin: 10px;
@@ -10,7 +11,7 @@
     transition: .3s;
     width: 200px;
     height: 200px;
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+     
 }
 .Marqueecard img{
     object-position: center;
@@ -24,13 +25,9 @@
         margin-left: 10px;
         font-size: 1.5rem;
         position: relative;
-        
+        font-family: "Protest Revolution", sans-serif;
     
 }
-  
-  
-    
-
 .container{
     
     margin-top: 40px;
@@ -40,8 +37,5 @@
     justify-content: space-around;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-    
-
+    justify-content: center;    
 }

@@ -1,16 +1,25 @@
-
+*{
+  padding: 0;
+  margin: 0;
+}
    .team-container {
     background: #246A73;
     color: #fff;
     padding: 20px;
     text-align: center;
+    
   }
   .team-container h1{
     color: beige;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
   }
   
   .team-section {
     margin-top: 50px;
+    font-family: "Protest Revolution", sans-serif;
   }
   
   .card-container {
@@ -29,5 +38,16 @@
     .card-wrapper {
       flex: 1 1 100%;
     }
+    
+  }
+  @media (min-width:720px) {
+    .team-container{
+       
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+    
   }
 

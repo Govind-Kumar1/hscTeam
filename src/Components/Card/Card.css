@@ -10,7 +10,7 @@
     transition: .3s;
     width: 200px;
     height: 200px;
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+    box-shadow: 10px 10px 20px rgba(240, 30, 30, 0.8);
  }
  .single-content .text-content,
  .single-content::after{
