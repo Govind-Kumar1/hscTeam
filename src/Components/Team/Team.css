@@ -7,7 +7,9 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-    
+     background-image: url(' ');  
+        background-size: cover;
+        background-repeat: no-repeat;
   }
   .team-container h1{
     color: beige;
