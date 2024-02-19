@@ -64,6 +64,12 @@ const Team = () => {
           {getTeamMembers("Design")}
         </div>
       </section>
+      <section className="team-section">
+        <h2>Web Development</h2>
+        <div className="card-container">
+          {getTeamMembers("web")}
+        </div>
+      </section>
 
       
 
@@ -113,6 +119,16 @@ const getTeamMembers = (teamName) => {
       { id: 20, name: 'Hritik Gupta', roll: '3rd CHE (poster)' },
       { id: 21, name: 'Isha Singh', roll: '3rd CHE (Poster)' },
       { id: 22, name: 'Aashika Nath', roll: '3rd EE (video)' },
+    ],
+    web: [
+      { id: 20, name: 'Hritik Gupta', roll: '3rd CHE ' },
+      { id: 21, name: 'Isha Singh', roll: '3rd CHE ' },
+      { id: 22, name: 'Aashika Nath', roll: '3rd EE ' },
+      {id:23,name:'Harsh Pathak',roll:'2nd CSE'},
+      {id:23,name:'Govind Kumar',roll:'2nd CSE'},
+      {id:23,name:'Sukrit Prakash',roll:'2nd CSE'},
+      {id:23,name:'Sumit Singh',roll:'2nd CSE'},
+      {id:23,name:'Harsh Chaturvedi',roll:'2nd CSE'},
     ],
   };
 
