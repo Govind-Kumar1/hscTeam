@@ -11,7 +11,7 @@ let all_product = [
     branch:"CSE",
   },
   {
-    id: 1,
+    id: 2,
     name: " Sukrit Prakash",
     roll: "web Developer",
     image: p1_img,

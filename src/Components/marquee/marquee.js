@@ -9,14 +9,14 @@ function Marqueex(props)
     
     <Marquee pauseOnHover="true" className="container">  
         
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name name n</h4></div>
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name nnanann</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name njjhj</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name hhhh</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name hhggg</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
-        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>name</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>Divyansh Verma</h4></div>
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>Jatin Kaushik</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>Abhay Pratap Singh</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>Abhay Singh</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>Harsh Gautam</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>Akshat Gupta</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>Amber Gupta</h4></div> 
+        <div className="Marqueecard"><img src={img2} alt="/"></img><h4>Anshu Dwivedi</h4></div> 
                 
        
        </Marquee>
